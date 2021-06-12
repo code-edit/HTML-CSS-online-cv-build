@@ -1,0 +1,93 @@
+/******************************************SELECTOR TAGS**************************************************/
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Rochester&display=swap");
+
+  margin: 0;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  padding-top: 130px;
+  margin-top: 0px;
+  font-size: 220%;
+  word-spacing: ;
+  color: #11999e;
+}
+h3 {
+  color: #66bfbf;
+}
+a {
+  color: #11999e;
+}
+
+/****************************************** SELECTOR ID**************************************************/
+#fcloud {
+  padding-top: 70px;
+  display: inline-block;
+  position: absolute;
+  right: 400px;
+}
+
+#lcloud {
+  padding-top: 0px;
+  display: inline-block;
+  position: absolute;
+  left: 400px;
+}
+
+/******************************************SELECTOR CLASSES**************************************************/
+
+.first {
+  background-color: #e4f9f5;
+  height: 670px;
+  font-family: "Rochester", cursive;
+}
+.second {
+  height: 30%;
+  background-color: rgb(32, 182, 137);
+}
+.third {
+  height: 200px;
+  background-color: cyan;
+}
+.dev {
+  margin: 0;
+  padding-top: 5px;
+  color: #11999e;
+  font-weight: normal;
+  line-height: 2;
+}
+.pro {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #11999e;
+  font-weight: normal;
+  line-height: 2;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  border-radius: 100%;
+  text-align: left;
+}
+.computer {
+  border-radius: 100%;
+  width: 25%;
+  position: relative;
+  right: 23px;
+  float: left;
+  margin-right: 50px;
+}
+.des {
+  line-height: 44px;
+  padding-left: 100px;
+}
+.chillies {
+  border-radius: 100%;
+  width: 25%;
+  position: relative;
+  right: 23px;
+  float: right;
+  margin-left: 50px;
+}
